@@ -1,0 +1,7 @@
+import numpy as py
+arry=np.array([[[6,5],[4,3]],[[1,2],[7,8]]])
+np.ndim(arry)
+print(arry)
+print(np.sort(arry))
+np.where(arry==5)
+print(arry[0,0,1])
